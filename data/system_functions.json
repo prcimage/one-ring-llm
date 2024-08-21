@@ -1,0 +1,168 @@
+[
+  {
+    "name": "list_ehr",
+    "description": "Retrieves the most recent updates in the electronic health record (EHR), encompassing laboratory results, medical notes, and diagnostic test outcomes, to provide an up-to-date patient health overview.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "page": {
+          "type": "number",
+          "description": "Specifies the pagination index for EHR updates, beginning at 0 for the most recent entries."
+        }
+      },
+      "required": ["page"]
+    }
+  },
+  {
+    "name": "search_values_in_ehr",
+    "description": "Performs a targeted search within the electronic health records, enabling retrieval of specific patient details such as age, laboratory findings, diagnostic test results, or medical notes.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "search_query": {
+          "type": "string",
+          "description": "Defines the search criteria or keywords for extracting relevant information from the EHR."
+        }
+      },
+      "required": ["search_query"]
+    }
+  },
+  {
+    "name": "get_value_from_ehr",
+    "description": "Extracts a specific value or data point from the electronic health records, identified previously through a search operation.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Indicates the specific data item's name to be retrieved from the EHR."
+        }
+      },
+      "required": ["name"]
+    }
+  },
+  {
+    "name": "search_care_pathways",
+    "description": "Searches for care pathways to obtain detailed information about disease management, including diagnostic procedures and treatment guidelines.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "search_query": {
+          "type": "string",
+          "description": "The search term used to identify relevant care pathways for specific medical conditions."
+        }
+      },
+      "required": ["search_query"]
+    }
+  },
+  {
+    "name": "get_care_pathway",
+    "description": "Retrieves a specific care pathway that has been identified through the search_care_pathways function, providing detailed guidelines for disease management.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the care pathway to be retrieved, as identified in the search results."
+        }
+      },
+      "required": ["name"]
+    }
+  },
+  {
+    "name": "search_models",
+    "description": "Searches for risk assessment and machine learning models that can assist in medical decision-making, such as mortality prediction or diagnostic support.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "search_query": {
+          "type": "string",
+          "description": "Defines the search criteria for locating relevant medical models and algorithms."
+        }
+      },
+      "required": ["search_query"]
+    }
+  },
+  {
+    "name": "run_model",
+    "description": "Executes a specific medical model identified through the search_models function, applying it to a given clinical scenario or dataset.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the model to be executed."
+        },
+        "arguments": {
+          "type": "object",
+          "description": "Key-value pairs representing the arguments required by the model."
+        }
+      },
+      "required": ["name"]
+    }
+  },
+  {
+    "name": "search_diagnostic_tests",
+    "description": "Facilitates the search for various diagnostic tests and examinations, including but not limited to blood tests, MRI, X-rays, biopsies, ECGs, and physical examinations.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "search_query": {
+          "type": "string",
+          "description": "Specifies the search criteria for identifying relevant diagnostic tests and procedures."
+        }
+      },
+      "required": ["search_query"]
+    }
+  },
+  {
+    "name": "request_diagnostic_test",
+    "description": "Requests specific diagnostic tests identified through the search_diagnostic_tests function, tailored to the patient's clinical needs.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the diagnostic test to be requested."
+        },
+        "arguments": {
+          "type": "object",
+          "description": "Additional arguments or details required for requesting the test. Can be empty if the test does not require any additional information. Look att the arguments (especially the required ones) in the diagnostic test schema."
+        }
+      },
+      "required": ["name"]
+    }
+  },
+  {
+    "name": "search_referral_clinics",
+    "description": "Identifies clinics for patient referrals, focusing on specialized care needs.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "search_query": {
+          "type": "string",
+          "description": "The search term used to find clinics offering specialized medical services."
+        }
+      },
+      "required": ["search_query"]
+    }
+  },
+  {
+    "name": "send_referral",
+    "description": "Sends a referral to a selected clinic, facilitating specialized care for the patient.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the clinic to which the referral is being sent."
+        },
+        "text": {
+          "type": "string",
+          "description": "Detailed content of the referral, including patient information and clinical reason for referral."
+        }
+      },
+      "required": ["name", "text"]
+    }
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Urology",
+    "description": "Medical and surgical treatment of urinary tract and reproductive system in males and females."
+  },
+  {
+    "name": "Cardiology",
+    "description": "Diagnosis and treatment of heart and blood vessel disorders."
+  },
+  {
+    "name": "Orthopedics",
+    "description": "Care for musculoskeletal system including bones, joints, muscles, and ligaments."
+  },
+  {
+    "name": "Dermatology",
+    "description": "Treatment of skin, hair, and nail disorders."
+  },
+  {
+    "name": "Neurology",
+    "description": "Management of diseases and disorders of the brain and nervous system."
+  },
+  { "name": "Oncology", "description": "Diagnosis and treatment of cancer." },
+  {
+    "name": "Gastroenterology",
+    "description": "Focus on digestive system and its disorders."
+  },
+  {
+    "name": "Endocrinology",
+    "description": "Treatment of hormone-related diseases and metabolic disorders."
+  },
+  {
+    "name": "Ophthalmology",
+    "description": "Medical and surgical care for eye conditions."
+  },
+  {
+    "name": "Otolaryngology",
+    "description": "Specialty focused on ear, nose, and throat (ENT) disorders."
+  },
+  {
+    "name": "Pulmonology",
+    "description": "Dealing with diseases involving the respiratory tract."
+  },
+  {
+    "name": "Rheumatology",
+    "description": "Treatment of arthritis and other diseases of the joints, muscles, and bones."
+  },
+  {
+    "name": "Physical Therapy",
+    "description": "Rehabilitation to improve movement, reduce pain, and restore functionality."
+  },
+  {
+    "name": "Psychiatry",
+    "description": "Diagnosis and treatment of mental health disorders."
+  },
+  {
+    "name": "Nephrology",
+    "description": "Care for kidney diseases and conditions."
+  },
+  {
+    "name": "Pediatrics",
+    "description": "Medical care for infants, children, and adolescents."
+  },
+  {
+    "name": "Obstetrics and Gynecology",
+    "description": "Care for women's reproductive health and childbirth."
+  },
+  {
+    "name": "Surgery",
+    "description": "Specialty involving operative procedures to treat diseases, injuries, and deformities."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Patient - Name",
+    "content": "Test Patient0"
+  },
+  {
+    "name": "Patient - Age",
+    "content": "68"
+  },
+  {
+    "name": "Patient - Gender",
+    "content": "MALE"
+  },
+  {
+    "name": "Patient - Medications",
+    "content": "1x1 Enalapril/Hydrochlorothiazide 20mg/12.5mg"
+  },
+  {
+    "name": "Patient - Allergies",
+    "content": "Penicillin, Nuts"
+  },
+  {
+    "name": "Patient - Blood Type",
+    "content": "A+"
+  },
+  {
+    "name": "Patient - Past Medical History",
+    "content": "Hypertension"
+  },
+  {
+    "name": "Patient - Family History",
+    "content": "Father with Coronary Artery Disease, Mother with Osteoporosis"
+  },
+  {
+    "name": "Patient - Immunization Records",
+    "content": "Influenza, Tetanus, COVID-19"
+  },
+
+  {
+    "name": "Doctor Note - Yearly Checkup",
+    "content": "# Primary Care Visit\n\n## Reason for Visit\n\nYearly Checkup\n\n## Medical history\n\n### Heredity\n\nNo history of significant hereditary diseases.\n\n### Social\n\nMarried. Has two children. Retired IT technician.\n\n### Diseases\n\nPreviously underwent scrotal surgery. Has had a vasectomy.\n\n### Current Situation\n\nThe patient feels generally well. Regularly monitors blood pressure.\n\n### Medications\n\nPlease see the updated list in the Medical Record.\n\n### Hypersensitivity/Allergy\n\nNo known drug hypersensitivity\n\n## Examination\n\n### General Condition\n\nGood and unaffected\n\n### Heart\n\nRegular rhythm, normofrequent.\n\n### Lungs\n\nVesicular breath sounds, no additional sounds.\n\n### Blood Pressure\n\n142/90\n\n## Recommendations\n\nGiven the increase in blood pressure, prescribed Enalapril/Hydrochlorothiazide. Recommend a low-sodium diet and regular aerobic exercise. Schedule a follow-up appointment in 6 months to monitor blood pressure and medication efficacy.",
+    "created": "2024-01-15 09:30"
+  }
+]

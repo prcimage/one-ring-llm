@@ -1,0 +1,212 @@
+[
+  {
+    "name": "request_prostate_mri",
+    "description": "Requests an MRI of the prostate.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  },
+  {
+    "name": "request_prostate_biopsy",
+    "description": "Requests a biopsy of the prostate.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  },
+  {
+    "name": "request_ecg",
+    "description": "Requests an electrocardiogram.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  },
+  {
+    "name": "request_full_body_mri",
+    "description": "Requests a full body MRI.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  },
+  {
+    "name": "request_prostate_specific_antigen",
+    "description": "Requests a prostate-specific antigen (PSA) test.",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "request_complete_blood_count",
+    "description": "Requests a complete blood count (CBC).",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "request_lipid_profile",
+    "description": "Requests a lipid profile test.",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "request_sthlm3",
+    "description": "Requests a STHLM3 test to determine the risk of aggressive prostate cancer (defined as Gleason Score ≥ 7).",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "request_chest_xray",
+    "description": "Requests a chest X-ray.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  },
+  {
+    "name": "request_abdominal_ultrasound",
+    "description": "Requests an abdominal ultrasound.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  },
+  {
+    "name": "request_blood_glucose_test",
+    "description": "Requests a blood glucose test.",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "request_transrectal_ultrasound",
+    "description": "Requests a transrectal ultrasound.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  },
+  {
+    "name": "request_bone_density_scan",
+    "description": "Requests a bone density scan (DEXA).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  },
+  {
+    "name": "request_thyroid_function_tests",
+    "description": "Requests thyroid function tests (TFTs).",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "request_ophthalmoscopy",
+    "description": "Requests an ophthalmoscopy for eye examination.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  },
+  {
+    "name": "request_spirometry",
+    "description": "Requests spirometry for lung function assessment.",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "request_electroencephalogram",
+    "description": "Requests an electroencephalogram (EEG).",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  },
+  {
+    "name": "request_colonoscopy",
+    "description": "Requests a colonoscopy.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "referral_text": {
+          "type": "string",
+          "description": "Includes patient info, history, status, and diagnostic need."
+        }
+      },
+      "required": ["referral_text"]
+    }
+  }
+]

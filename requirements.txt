@@ -1,0 +1,6 @@
+numpy
+openai
+pyyaml
+python-dotenv
+jsonschema
+termcolor

@@ -1,0 +1,125 @@
+- name: breast-cancer
+  content: ""
+- name: diabetes-type-2
+  content: ""
+- name: hypertension
+  content: ""
+- name: asthma
+  content: ""
+- name: coronary-artery-disease
+  content: ""
+- name: osteoarthritis
+  content: ""
+- name: depression
+  content: ""
+- name: chronic-obstructive-pulmonary-disease
+  content: ""
+- name: alzheimer's-disease
+  content: ""
+- name: benign-prostatic-hyperplasia
+  content: ""
+- name: prostate-cancer
+  content: |
+    ## Indications for Investigation – Symptoms
+
+    The following symptoms in men over 40 years of age raise suspicion of prostate cancer and should lead to a PSA test in addition to prostate palpation:
+
+    - Rapidly increasing (over the last six months), significant urinary problems
+    - Increasing skeletal pain
+    - Skeletal metastases without a known primary tumor
+    - General cancer symptoms such as fatigue and loss of appetite. A PSA test should not be taken in connection with symptoms that could be due to an infection in
+      the urinary tract or genitalia, unless the clinical suspicion of prostate cancer is very high. Macroscopic hematuria can be a symptom at the onset of
+      locally advanced prostate cancer but should be investigated according to the standardized care pathway for urinary tract cancer
+
+    ## PSA Testing of Asymptomatic Men
+
+    Asymptomatic men who wish to have a prostate check should be offered the 1177 brochure on the pros and cons of PSA testing. Men with more than 10–15 years
+    of expected remaining life who then wish to be tested should be offered regular PSA tests, with prostate palpation. Other men should be advised
+    against PSA testing (the average remaining life expectancy for 75-year-old men is 12 years). Test intervals for men outside the hereditary risk group:
+
+    - PSA <1 μg/l for men under about 65 years: 6 years.
+    - PSA <1 μg/l for men over about 65 years: No further testing.
+    - PSA 1–2.9 μg/l: Every 2 years up to about 75 years of age, thereafter no testing.
+    - If the increase is >1 μg/l since the previous test, a new test should be taken after 1 year.
+    - Individuals with a prostate gland and low p-testosterone (<8 nmol/l) should be tested every 2 years (men without known hypogonadism can be assumed
+      to have a normal testosterone value).
+
+    ## Referral to Standardized Care Pathway (SVF)
+
+    If any of the following criteria are met, there is a well-founded suspicion of prostate cancer. 
+    - Palpation finding suspicious of malignancy (hardening in the prostate gland), and/or
+    - PSA above the threshold (men in the hereditary risk group should be referred at PSA ≥ 2 μg/l; men taking 5-alpha-reductase inhibitors at PSA above half of the
+      values indicated below):
+      - Men < 70 years: PSA ≥ 3 μg/l
+      - Men 70–80 years: PSA ≥ 5 μg/l
+      - Men > 80 years: PSA ≥ 7 μg/l
+
+    If there is a well-founded suspicion of prostate cancer a model should be used to calculate the risk of the patient having prostate cancer. If the risk is over 5%
+    the patient should take a STHLM3 blood test to further specify the risk of the patient having prostate cancer. If the risk is over 13% the patient should undergo a magnetic resonance imaging (MRI)
+    of the prostate. If the MRI reveals pathological findings, prostate biopsies should be conducted to further investigate the suspected malignancy. If any malignancy is found in the biopsies
+    a refferal to a urological clinic for further treatment is indicated.
+
+    The referral should include:
+
+    - Medical history, especially
+      - Symptoms or findings that form the basis for a well-founded suspicion
+      - Whether the patient has previously been investigated for prostate cancer
+      - The results from the prostate MRI, detailing any pathological findings or other relevant observations
+      - The results from the prostate biopsies, including histopathological findings and any other pertinent data
+      - General condition, functional impairments, and comorbidity, and whether any of these conditions may require an individualized
+        investigation
+      - Whether the patient recently had a urinary tract infection
+      - Medication (especially finasteride/dutasteride, platelet inhibitors, and anticoagulants)
+      - Social situation, potential language barriers
+    - Contact details for the patient, including telephone number
+    - Details for direct contact with the referring (direct number).
+
+    The person referring for the investigation should inform the patient that there is reason to conduct examinations to find out whether he has
+    cancer or not, what a standardized care pathway involves, what happens in the initial phase, that the patient may be called for
+    investigation quickly and should therefore be available by phone, and that healthcare often calls from a hidden number.
+
+    ## Hereditary Risk Group
+
+    Definition: Men with a father or brother with prostate cancer and at least one first-degree relative to these also diagnosed with
+    prostate cancer. Someone in the family should have been diagnosed before the age of 75.
+
+    Men in the hereditary risk group are advised to have prostate checks from the age of 40. They should receive the brochure on PSA tests issued by 1177
+    and the Regional Cancer Centers in collaboration. The first check should include a PSA test and palpation. Thereafter, depending on the PSA value:
+
+    - PSA < 1 μg/l: PSA test every other year in primary care
+    - PSA 1–1.9 μg/l: Annual PSA test in primary care
+    - PSA ≥ 2 μg/l: Referral to a urologist
+
+    Controls should be terminated when a curative treatment of prostate cancer would no longer be relevant, i.e., when the expected
+    remaining lifetime is less than 10 years.
+
+    ## Treatment with 5-Alpha-Reductase Inhibitors Affects PSA
+
+    Finasteride and dutasteride reduce the PSA value by half within a year in patients who have benign prostatic hyperplasia without concurrent cancer.
+    The patient should therefore be referred to a urologist
+
+    - If the PSA value does not halve within a year
+    - If the PSA value rises more than 0.5 μg/l above the lowest value during ongoing treatment with 5-alpha-reductase inhibitors, the man should be referred to a
+      urologist
+
+    If documentation of previous PSA values is missing, the age-dependent action limits for PSA (3/5/7 μg/l) should be halved, i.e., a referral should
+    be made according to SVF for values above 1.5/2.5/3.5 μg/l.
+
+    ## Sources of Error in Assessing PSA Values
+
+    There are a number of error sources to be aware of when assessing PSA values. Rectal palpation does not have any clinically relevant
+    impact on the PSA value.
+
+    - Intra-individual variation: The PSA value can vary +/- 15%.
+    - Measurement method: The variation between different laboratories in Sweden is around 5%.
+    - Sample handling: The blood sample should be quickly centrifuged and cooled. Centrifuged serum samples are stable for 4 hours at room temperature and 24
+      hours in the refrigerator, centrifuged plasma samples are stable for 8 hours at room temperature and 3 days in the refrigerator. If the sample will not be analyzed within
+      these times, it should be frozen.
+    - Febrile urinary tract infection often significantly increases the PSA value. It can take a year before the value normalizes. A PSA test should therefore not be taken in
+      connection with a febrile urinary tract infection, unless there is a clinical suspicion of prostate cancer. If a test is still taken and
+      the palpation finding is benign, PSA should be followed up one month after the end of antibiotic treatment. If the value is then significantly lower, it can be followed
+      every other month until it either normalizes or plateaus above the action limit (= referral to a urologist).
+    - Acute urinary retention: Acute urinary retention moderately increases the PSA value (often doubling, rarely > 20 μg/l). With a benign palpation finding, a
+      PSA test should be taken at the earliest after a week.
+    - Hypogonadism: It is more common for men with hypogonadism (p-testosterone < 8 nmol/l) to have advanced prostate cancer despite a low PSA value,
+      than men with normal p-testosterone.

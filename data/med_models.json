@@ -1,0 +1,212 @@
+[
+  {
+    "name": "general_health_prostate_cancer_risk_assessment",
+    "description": "Risk Calculator 1 – the general health calculator is a starting point, looking at family history, age and any medical problems with urination.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "hereditary_prostate_cancer": {
+          "type": "boolean",
+          "description": "Family history of prostate cancer"
+        },
+        "age": { "type": "integer", "description": "Patient's age" },
+        "not_emptying_bladder": {
+          "type": "integer",
+          "description": "Frequency of sensation of not emptying bladder completely"
+        },
+        "urinate_again_soon": {
+          "type": "integer",
+          "description": "Frequency of needing to urinate again less than two hours after finishing"
+        },
+        "start_stop_urination": {
+          "type": "integer",
+          "description": "Frequency of stopping and starting again several times when urinating"
+        },
+        "difficulty_holding_urine": {
+          "type": "integer",
+          "description": "Difficulty in holding back urination"
+        },
+        "reduced_urinary_stream": {
+          "type": "integer",
+          "description": "Noticeable reduction in strength and force of urinary stream"
+        },
+        "push_strain_urination": {
+          "type": "integer",
+          "description": "Frequency of needing to push or strain to begin urinating"
+        },
+        "nighttime_urination": {
+          "type": "integer",
+          "description": "Number of times needed to urinate at night"
+        }
+      },
+      "required": [
+        "hereditary_prostate_cancer",
+        "age",
+        "not_emptying_bladder",
+        "urinate_again_soon",
+        "start_stop_urination",
+        "difficulty_holding_urine",
+        "reduced_urinary_stream",
+        "push_strain_urination",
+        "nighttime_urination"
+      ]
+    }
+  },
+  {
+    "name": "psa_risk_calculator",
+    "description": "Risk Calculator 2 – the PSA risk calculator looks at the levels of prostate specific antigen (PSA) in patient’s blood to help predict whether further investigation is required.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "psa": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Prostate-Specific Antigen level"
+        }
+      },
+      "required": ["psa"]
+    }
+  },
+  {
+    "name": "prostate_cancer_risk_calculator_6",
+    "description": "Assesses the risk of prostate cancer using a range of factors including age, PSA level, digital rectal exam results, family history, prostate volume, and history of previous negative biopsy.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "age": { "type": "integer", "description": "Patient's age" },
+        "psa": {
+          "type": "number",
+          "description": "Prostate-Specific Antigen level"
+        },
+        "drect_exam_abnormal": {
+          "type": "boolean",
+          "description": "Whether the digital rectal exam was abnormal"
+        },
+        "family_history_prostate_cancer": {
+          "type": "boolean",
+          "description": "Family history of prostate cancer"
+        },
+        "drect_exam_volume": {
+          "type": "integer",
+          "enum": [25, 40, 60],
+          "description": "Prostate volume as determined by digital rectal examination; possible values are 25, 40, or 60"
+        },
+        "previous_negative_biopsy": {
+          "type": "boolean",
+          "description": "Whether there has been a previous negative prostate biopsy"
+        }
+      },
+      "required": [
+        "age",
+        "psa",
+        "drect_exam_abnormal",
+        "family_history_prostate_cancer",
+        "drect_exam_volume",
+        "previous_negative_biopsy"
+      ]
+    }
+  },
+  {
+    "name": "chads_vasc_score",
+    "description": "Evaluates stroke risk in atrial fibrillation patients.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "age": { "type": "integer", "description": "Patient's age" },
+        "sex": {
+          "type": "string",
+          "enum": ["male", "female"],
+          "description": "Patient's sex"
+        },
+        "heart_failure_history": {
+          "type": "boolean",
+          "description": "Presence of heart failure"
+        },
+        "hypertension_history": {
+          "type": "boolean",
+          "description": "Presence of hypertension"
+        },
+        "stroke_tia_history": {
+          "type": "boolean",
+          "description": "History of stroke or TIA"
+        },
+        "vascular_disease_history": {
+          "type": "boolean",
+          "description": "History of vascular disease"
+        },
+        "diabetes_history": {
+          "type": "boolean",
+          "description": "Presence of diabetes mellitus"
+        }
+      },
+      "required": [
+        "age",
+        "sex",
+        "heart_failure_history",
+        "hypertension_history",
+        "stroke_tia_history",
+        "vascular_disease_history",
+        "diabetes_history"
+      ]
+    }
+  },
+  {
+    "name": "blood_pressure_mortality_risk",
+    "description": "Calculates 10-year mortality risk due to high blood pressure.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "age": { "type": "integer", "description": "Patient's age" },
+        "systolic_pressure": {
+          "type": "integer",
+          "description": "Patient's systolic blood pressure"
+        },
+        "diastolic_pressure": {
+          "type": "integer",
+          "description": "Patient's diastolic blood pressure"
+        }
+      },
+      "required": ["age", "systolic_pressure", "diastolic_pressure"]
+    }
+  },
+  {
+    "name": "diabetes_risk_assessment",
+    "description": "Estimates 10-year diabetes mortality risk.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "age": { "type": "integer", "description": "Patient's age" },
+        "hba1c": { "type": "integer", "description": "Latest HbA1c level" }
+      },
+      "required": ["age", "hba1c"]
+    }
+  },
+  {
+    "name": "pneumothorax_xray_analysis",
+    "description": "Machine learning model to detect pneumothorax in chest X-rays.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "xray_image": {
+          "type": "string",
+          "description": "Path to chest X-ray image"
+        }
+      },
+      "required": ["xray_image"]
+    }
+  },
+  {
+    "name": "mammography_cancer_detection",
+    "description": "AI-driven model to identify cancer in mammography images.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "mammogram_image": {
+          "type": "string",
+          "description": "Path to mammography image"
+        }
+      },
+      "required": ["mammogram_image"]
+    }
+  }
+]
